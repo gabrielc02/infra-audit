@@ -64,3 +64,4 @@ Build a professional CLI tool to identify high-risk production assets from a raw
   }
 ]
 
+REF https://github.com/golang-standards/project-layout
