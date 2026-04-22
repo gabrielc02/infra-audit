@@ -65,3 +65,9 @@ Build a professional CLI tool to identify high-risk production assets from a raw
 ]
 
 REF https://github.com/golang-standards/project-layout
+
+We got a inventory file, the main object is, create a sistem that can read from this file and apply a audit on those itens, generating a output with valid assets and invalida assets, saying why those are invalidate
+/report contains the model for assets output, and audit.go that apply the filter
+/io contains the reader function
+/inventory contains model.go for assets input
+/main is the clue of all those
