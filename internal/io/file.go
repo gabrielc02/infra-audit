@@ -9,7 +9,7 @@ import (
 
 func Reader() ([]inventory.Asset, error) {
 
-	file, err := os.ReadFile("internal/inventory/inventory.json")
+	file, err := os.ReadFile("./inventory.json")
 	if err != nil {
 		return nil, fmt.Errorf("erro ao abrir arquivo: %w", err)
 	}

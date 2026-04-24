@@ -17,7 +17,7 @@ func main() {
 	reported := report.Report(assets)
 
 	for _, rep := range reported {
-		fmt.Printf("REPORTED{%v}", rep)
+		fmt.Printf("REPORTED - %v \n", rep)
 	}
 
 }
